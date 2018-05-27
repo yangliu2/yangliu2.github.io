@@ -23,7 +23,7 @@ def gen_json():
 
 def main():
     output = gen_json()
-    with open('../alexa.json', 'w') as outfile:
+    with open('alexa.json', 'w') as outfile:
         json.dump(output, outfile)
 
 if __name__ == '__main__':
