@@ -8,7 +8,7 @@ def gen_json():
     uid = "urn:uuid:" + str(uuid.uuid4())
     updateDate = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%S.0Z")
     titleText = "Panzoto's Artificial Intelligence News Brief"
-    mainText = "You know how powerful transfer learning is for image processing? Now imagine you can do the same for text and even sequence in general. This is what fast.ai can do. Checkout Universal Language Model Fine-tuning"
+    mainText = "Did you learn the best your can do for sorting is O(n log n)? Did you ever think you can do better than that? Check out the #MachineLearning way to sort, so you can get the answer in O(n) time? https://arxiv.org/abs/1805.04272"
     # print type(mainText)
     redirectionUrl = "https://data.panzoto.com"
 
