@@ -8,7 +8,7 @@ def gen_json():
     uid = "urn:uuid:" + str(uuid.uuid4())
     updateDate = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%S.0Z")
     titleText = "Panzoto's Artificial Intelligence News Brief"
-    mainText = "Did you learn the best your can do for sorting is O(n log n)? Did you ever think you can do better than that? Check out the #MachineLearning way to sort, so you can get the answer in O(n) time? https://arxiv.org/abs/1805.04272"
+    mainText = "Check out Google's latest Zero-shot dual machine translation. This could be a godsend for languages that have few translations. One more step moving towards Universal Machine Translation, where everything translate to everything else."
     # print type(mainText)
     redirectionUrl = "https://data.panzoto.com"
 
