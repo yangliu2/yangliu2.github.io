@@ -8,7 +8,7 @@ def gen_json():
     uid = "urn:uuid:" + str(uuid.uuid4())
     updateDate = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%S.0Z")
     titleText = "Panzoto's Artificial Intelligence News Brief"
-    mainText = "Have you ever used Batch Normalization? Do you ever wonder how it work so well? Recent theoretical work revealed that it make optimization landscape significantly smoother and accelerates optimization with gradient-based methods. It's like you have less of a bumpy road to drive. Of course you are going to get to you destination faster."
+    mainText = "Google released their new paper on Auto Augment, which use Reinforcement Learning to find the best way to augment image data."
     # print type(mainText)
     redirectionUrl = "https://data.panzoto.com"
 
