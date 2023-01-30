@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Get neo4j nodes</title>
+  </head>
+  <body>
+    <h1>Get neo4j nodes</h1>
+    <form action="/nodes" method="post">
+      <input type="text" name="username" placeholder="Username">
+      <input type="password" name="password" placeholder="Password">
+      <input type="text" name="driver_url" placeholder="Driver URL">
+      <button type="submit">Get nodes</button>
+    </form>
+  </body>
+</html>
